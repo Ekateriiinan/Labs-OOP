@@ -1,4 +1,5 @@
 #include "To_Binary.h"
+
 #include <gtest/gtest.h>
 #include <vector>
 
@@ -29,4 +30,5 @@ TEST(ToBinaryTest, MixedBitsTest) {
 TEST(ToBinaryTest, VectorSizeTest) {
     std::vector<int> result = ToBinaryArray(123);
     EXPECT_EQ(result.size(), 32);
+
 }
