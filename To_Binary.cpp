@@ -1,4 +1,5 @@
 #include "To_Binary.h"
+
 #include <vector>
 
 std::vector<int> ToBinaryArray(unsigned int n) {
@@ -12,3 +13,4 @@ std::vector<int> ToBinaryArray(unsigned int n) {
     
     return result;
 }
+
