@@ -1,7 +1,6 @@
-#ifndef To_Binary
-#define To_Binary
+#pragma once 
+
 #include <vector>
 
 std::vector<int> ToBinaryArray(unsigned int number);
 
-#endif
